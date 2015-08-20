@@ -6,15 +6,41 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.4";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="container">
 		<div class="bg"></div>
-		<div class="tweets">
-			<blockquote class="twitter-tweet" lang="ru">
-				<p lang="ru" dir="ltr">Твитер, дай галочку :( Плизик</p>&mdash; ерушин в этой суке (@erusheen)
-				<a href="https://twitter.com/erusheen/status/634104530687389696">19 августа 2015</a>
-			</blockquote>
-			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<div class="posts">
+
+			<div class="tweets">
+				<blockquote class="twitter-tweet" lang="ru">
+					<p lang="ru" dir="ltr">Твитер, дай галочку :( Плизик</p>&mdash; ерушин в этой суке (@erusheen)
+					<a href="https://twitter.com/erusheen/status/634104530687389696">19 августа 2015</a>
+				</blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			
+			<div class="sidebar">
+
+				<div class="youtube">
+					<script src="https://apis.google.com/js/platform.js"></script>
+				
+					<div class="g-ytsubscribe" data-channelid="UCCI75sm5JHy9aWgUhSsIytQ" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>
+				</div>
+
+				<div class="fb">
+					<div class="fb-page" data-href="https://www.facebook.com/abysswatchingme" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/abysswatchingme"><a href="https://www.facebook.com/abysswatchingme">Abyss, Watching Me</a></blockquote></div></div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 
